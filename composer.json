@@ -1,0 +1,26 @@
+{
+    "name": "punchkick-interactive/ZfCors",
+    "description": "Provides CORS headers to your responses",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "zfcors",
+        "cors",
+        "headers"
+    ],
+
+    "homepage": "https://github.com/Punchkick-Interactive/ZfCors",
+    "autoload": {
+        "psr-0": {
+            "ZfCors": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    },
+
+    "require": {
+        "php": ">=5.3.23",
+        "zendframework/zendframework": "~2.3-dev"
+    }
+}
