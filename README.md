@@ -28,10 +28,10 @@ The module ships with default headers preconfigured in its `module.config.php` a
 
 ~~~php
 'corsHeaders' => array(
-        'access-control-allow-headers' => 'accept, accept-encoding, content-type',
-        'access-control-allow-methods' => '*',
-        'access-control-allow-origin' => '*',
-    ),
+    'access-control-allow-headers' => 'accept, accept-encoding, content-type',
+    'access-control-allow-methods' => '*',
+    'access-control-allow-origin' => '*',
+),
 ~~~
 
 Feel free to override the above default headers in your app's `module.config.php` or any config files you have as you need.
