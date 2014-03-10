@@ -1,6 +1,6 @@
-#MongoCacher
+#ZfCors
 
-Provides CORS headers for your project.
+Provides CORS headers for your application responses.
 
 ### Installation
 ----------------
@@ -24,5 +24,5 @@ Add `ZfCors` to your `composer.json`:
 ### Usage
 ---------
 
-
 ## And That's All!
+------------------
